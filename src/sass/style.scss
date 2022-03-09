@@ -1,0 +1,15 @@
+// base 
+@import './base/reset';
+@import './base/typography';
+
+// utils section style 
+@import './utils/variables';
+
+// pages section style 
+@import './pages/home';
+
+//componnet section style
+@import './components/header';
+@import './components/buttons';
+@import './components/quick-feature';
+@import './components/logo-cloud';
