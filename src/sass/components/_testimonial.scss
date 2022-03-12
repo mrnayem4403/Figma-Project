@@ -7,8 +7,8 @@
     &-heading{
         display: flex;
         justify-content: space-between;
-        padding-top: 80px;
-        padding-bottom: 40px;
+        padding-top: 40px;
+        padding-bottom: 80px;
         h3{
             font-size: 32px;
             font-weight: 600;
@@ -21,6 +21,7 @@
         height: 345px;
         border-radius: 12px;
         background-color:#ffffff;
+        margin-left: 24px;
         &-text{
             padding: 40px 40px 25px 40px;
             p{
@@ -31,13 +32,17 @@
         }
         &-image{
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
             padding: 40px 40px;
             img{
                 width: 60px;
                 height: 60px;
                 object-fit: cover;
             }
+        }
+       svg{
+            margin: 0;
+
         }
     }
 }
