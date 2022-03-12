@@ -1,0 +1,43 @@
+.testimonial{
+    background-color: #F0F2F3;
+    margin-top: 80px;
+}
+.testimonial-wrapper{
+    padding: 80px 80px;
+    &-heading{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 80px;
+        padding-bottom: 40px;
+        h3{
+            font-size: 32px;
+            font-weight: 600;
+            color: black;
+        }
+    }
+
+    .clint-say-info{
+        width: 648px;
+        height: 345px;
+        border-radius: 12px;
+        background-color:#ffffff;
+        &-text{
+            padding: 40px 40px 25px 40px;
+            p{
+                font-size: 18px;
+                font-weight: 200;
+                line-height: 150%;
+            }
+        }
+        &-image{
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 40px;
+            img{
+                width: 60px;
+                height: 60px;
+                object-fit: cover;
+            }
+        }
+    }
+}
