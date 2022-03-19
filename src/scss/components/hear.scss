@@ -1,0 +1,26 @@
+.hear{
+    background-color: #09002B;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    .hear-content{
+        padding-top: 115px;
+        padding-bottom: 57px;
+        color: #ffffff;
+        h1{
+            font-size: 48px;
+            font-weight: bold;
+        }
+        p{
+            font-size: 15px;
+            font-weight: 200;
+        }
+    }
+
+    .image{       
+        img{
+        padding-bottom: 100px;
+        object-fit: cover;
+        }
+    }
+}
